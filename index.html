@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Riverbend Community Health Center</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <div class="site-title">Riverbend Community Health Center</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Programs</a>
+        <a href="#" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <div class="search-bar">
+      <!-- Intentional issue: input uses placeholder but no label -->
+      <input type="text" placeholder="Search services, events, and resources...">
+      <button>Search</button>
+    </div>
+
+    <section class="hero">
+      <h1>Care and Support for Every Stage of Life</h1>
+      <p>We provide health education, community programs, and support services for individuals and families.</p>
+
+      <!-- Intentional issue: missing alt text -->
+      <img class="hero-image" src="assets/health-team.svg">
+
+      <p>
+        <a class="button" href="#">Learn More</a>
+      </p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <!-- Intentional issue: missing alt text -->
+        <img src="assets/primary-care.svg">
+        <h3>Primary Care</h3>
+        <p>Routine care, wellness visits, and health screenings for adults and children.</p>
+        <!-- Intentional issue: vague link text -->
+        <a href="primary-care.html">Read more</a>
+      </article>
+
+      <article class="card">
+        <!-- Intentional issue: empty alt on meaningful image -->
+        <img src="assets/behavioral-health.svg" alt="">
+        <h3>Behavioral Health</h3>
+        <p>Counseling, support groups, and referrals for mental health services.</p>
+        <!-- Intentional issue: vague link text -->
+        <a href="behavioral-health.html">Click here</a>
+      </article>
+
+      <article class="card">
+        <img src="assets/community-workshops.svg" alt="People attending a community workshop">
+        <h3>Community Workshops</h3>
+        <p>Free classes on nutrition, stress management, and family wellness.</p>
+        <!-- Intentional issue: repeated vague link text -->
+        <a href="community-workshops.html">Read more</a>
+      </article>
+    </section>
+
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <p>The table below lists upcoming community education programs.</p>
+
+      <!-- Intentional issue: table uses td only, no th/header row -->
+      <table>
+        <tr>
+          <td>Program</td>
+          <td>Date</td>
+          <td>Location</td>
+        </tr>
+        <tr>
+          <td>Nutrition Basics</td>
+          <td>May 12</td>
+          <td>Room 204</td>
+        </tr>
+        <tr>
+          <td>Stress Management</td>
+          <td>May 19</td>
+          <td>Community Hall</td>
+        </tr>
+        <tr>
+          <td>Family Wellness</td>
+          <td>May 26</td>
+          <td>Room 110</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="notice">
+      <!-- Intentional issue: h4 follows h2 without h3 -->
+      <h4>Need Help?</h4>
+      <p>Our staff can connect you with services, forms, and community resources.</p>
+      <!-- Intentional issue: raw URL as link text -->
+      <p><a href="https://example.com/resources">https://example.com/resources</a></p>
+    </section>
+
+    <footer>
+      <div>
+        <strong>Stay Connected</strong>
+        <p>Get updates on classes, screenings, and community programs.</p>
+      </div>
+
+      <div>
+        <!-- Intentional issue: no visible label -->
+        <input type="email" placeholder="Your email">
+        <button>Subscribe</button>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
